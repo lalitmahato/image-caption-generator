@@ -3,5 +3,5 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 ADD ./ /code
 RUN pip install -r /code/requirements.txt
-EXPOSE 7860
-CMD ["python", "app.py"]
+#EXPOSE 7860
+#CMD ["python", "app.py"]

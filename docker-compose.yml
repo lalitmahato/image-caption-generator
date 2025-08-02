@@ -6,7 +6,7 @@ services:
       dockerfile: Dockerfile
     container_name: image_caption_generator
     restart: always
-#    command: python3 app.py
+    command: python3 app.py
     volumes:
       - ./:/code/
     ports:
