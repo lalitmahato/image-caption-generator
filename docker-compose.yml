@@ -1,0 +1,13 @@
+
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: Dockerfile
+    container_name: image_caption_generator
+    restart: always
+#    command: python3 app.py
+    volumes:
+      - ./:/code/
+    ports:
+      - 7860:7860
