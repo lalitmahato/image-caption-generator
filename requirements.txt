@@ -1,0 +1,5 @@
+gradio==5.39.0
+langchain==0.3.27
+transformers==4.54.1
+torch==2.7.1
+pillow==11.3.0
