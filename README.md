@@ -9,7 +9,7 @@ This is a simple web app that uses the BLIP model to generate captions for image
 ## Dependencies
 - gradio
 - transformers
-- PIL
+- Pillow
 - torch
 
 ## How to Run the App
